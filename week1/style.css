@@ -1,0 +1,96 @@
+#container {
+	width: 1300px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	background-color: #ffad33;
+	text-align: right;
+	overflow: hidden;
+}
+
+#nav {
+	margin-left: 40%;
+	padding-right: 30px;
+}
+
+.logo {
+	width: 100px;
+	height: 100px;
+	float: left;
+	position: relative;
+	margin: 0px 10px 15px 0px;
+}
+
+.tab {
+	display: inline-block;
+	font-family: arial;
+	font-weight: bold;
+	float: right;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 37.5px 15px 20px 6px;
+	font-size: 20px;
+}
+
+body {
+	background-color: #e0e0d1;
+}
+
+#text-container {
+	background-color: white;
+	margin: 40px 80px 20px 80px;
+	overflow: auto;
+}
+
+.myimg {
+	width: 225px;
+	margin: 5px 0px 80px 40px;
+	float: left;
+	padding: 60px;
+}
+
+.text {
+	text-align: justify;
+	padding: 15px;
+	margin: 5px 10px 10px 30px;
+}
+
+#heading {
+	padding-top: 5px;
+	padding-left: 30px;
+}
+
+h2 {
+	line-height: 0.5px;
+	font-size: 15px;
+	font-family: helvatica;
+}
+
+h1 {
+	font-size: 30px;
+	line-height: 1em;
+}
+
+.aboutme {
+	width: 500px;
+}
+
+.btn-holder {
+	width: 200px;
+	position: absolute;
+	padding: 10px;
+	margin: 10px 0px 60px 40px;
+}
+
+.btn {
+	width: 225px;
+	background-color: #ffad33;
+}
+
+.icons {
+	font-size: 36px;
+	padding-left: 3em;
+	padding-right: 6em;
+}
