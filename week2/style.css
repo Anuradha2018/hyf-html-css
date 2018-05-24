@@ -349,5 +349,11 @@ float:center;
 		justify-content:center;
 		width:100%;
 	}
+	#linkedin{
+		width:50%;
+		justify-content:center;
+		align-content: center;
+		height:100%;
+	}
 
 }
