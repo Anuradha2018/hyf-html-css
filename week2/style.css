@@ -124,7 +124,7 @@ table tr td{
 #heading h1 span{
 	color:#f9ca24;
 }
-#blackbox{
+.blackbox{
 width:180px;
 height:70px;
 margin-left:auto;
@@ -134,7 +134,7 @@ margin-bottom:40px;
 border:1px solid black;
 text-align:center;
 }
-#blackbox p{
+.blackbox p{
 text-align:center;
 font-size:25px;
 font-style:bold;
