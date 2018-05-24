@@ -341,7 +341,7 @@ float:center;
 		width:100%;
 		min-width: auto;
 	}
-	#blackbox{
+	.blackbox{
 		float:none;
 		text-align:center;
 	}
