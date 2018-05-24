@@ -113,14 +113,14 @@ table tr td{
 }
 
 .icons {
-	float:left;
-	margin-top:10px;
-	margin-left:10px;
-	font-size: 36px;
-	padding-left: 3em;
-	padding-right: 10em;
+    float:left;
+    margin-top:5px;
+    margin-left:0px;
+    font-size: 36px;
+
 
 }
+
 #heading h1 span{
 	color:#f9ca24;
 }
@@ -306,7 +306,7 @@ float:center;
     color: white;
     text-align: center;
 }
-@media only screen and (max-width:900px) {
+@media only screen and (max-width:1354px) {
 	#container{
 		width:100%;
 		min-width:auto;
@@ -350,10 +350,10 @@ float:center;
 		width:100%;
 	}
 	#linkedin{
-		width:50%;
+
 		justify-content:center;
 		align-content: center;
-		height:100%;
+		overflow: scroll;
 	}
 
 }
