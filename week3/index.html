@@ -230,5 +230,21 @@
       <div class="footer">
         <p>Copyright HYF&copy;2018</p>
       </div>
+
+      <script>
+    window.onscroll = function() {myFunction()};
+
+    var header = document.getElementById("container");
+    var sticky = header.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
+    </script>
+
    </body>
 </html>
