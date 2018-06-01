@@ -159,12 +159,26 @@ margin-bottom:40px;
 border:1px solid black;
 text-align:center;
 }
-#blackbox p,#blackbox2 p,#blackbox3 p {
+#blackbox p{
 text-align:center;
 font-size:25px;
 font-style:bold;
 font-family:Georgia;
 padding:auto;
+}
+#blackbox2 p{
+	text-align:center;
+	font-size:25px;
+	font-style:bold;
+	font-family:Georgia;
+	padding:auto;
+}
+#blackbox3 p {
+	text-align:center;
+	font-size:25px;
+	font-style:bold;
+	font-family:Georgia;
+	padding:auto;
 }
 #skill{
 	margin-top:80px;
