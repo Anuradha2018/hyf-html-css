@@ -159,7 +159,7 @@ margin-bottom:40px;
 border:1px solid black;
 text-align:center;
 }
-#blackbox p{
+#blackbox p,#blackbox2 p,#blackbox3 p {
 text-align:center;
 font-size:25px;
 font-style:bold;
