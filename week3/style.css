@@ -247,27 +247,37 @@ padding:auto;
 #electrical{
 	width: 370px;
 	height:250px;
-	display:block;
+	padding-top:30px;
+	padding-left:5px;
+	padding-right:5px;
 }
 #datacenter{
 	width: 370px;
 	height:250px;
-	display:block;
+	padding-top:30px;
+	padding-left:5px;
+	padding-right:5px;
 }
 #database{
 	width: 370px;
 	height:250px;
-	display:block;
+	padding-top:30px;
+	padding-left:5px;
+	padding-right:5px;
 }
 #desk{
 	width: 370px;
 	height:250px;
-	display:block;
+	padding-top:30px;
+	padding-left:5px;
+	padding-right:5px;
 }
 #office{
 	width: 370px;
 	height:250px;
-	display:block;
+	padding-top:30px;
+	padding-left:5px;
+	padding-right:5px;
 }
 
 .main{
