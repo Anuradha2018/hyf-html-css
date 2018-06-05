@@ -11,9 +11,11 @@
       <div id="container">
          <img class="logo" src="https://s19.postimg.cc/6fveykr2b/29845045.png" alt="hyf">
          <div id="nav">
-            <span class=tab>EDUCATION</span>
-            <span class=tab>SKILLS</span>
-            <span class=tab>ABOUT ME</span>
+           <span class=tab><a href="#contactme">CONTACT ME</a></span>
+           <span class=tab><a href="#blackbox3">NEWS</a></span>
+            <span class=tab><a href="#blackbox2">PORTFOLIO</a></span>
+            <span class=tab><a href="#blackbox">SKILLS</a></span>
+            <span class=tab><a href="#heading">ABOUT ME</a></span>
          </div>
       </div>
       <div id="text-container">
@@ -111,7 +113,7 @@
           <div class="skillcontainer">
           <div class="skills react">60%</div>
           </div>
-        <div id="blackbox"><p><b>PORTFOLIO</b></p></div>
+        <div id="blackbox2"><p><b>PORTFOLIO</b></p></div>
         <div class="flex-container">
           <div>
             <img id="electronic" src="https://s19.postimg.cc/xt5pe1tbn/Electronic_circuit.jpg" alt="electronic">
@@ -147,7 +149,7 @@
             <p class="next">Dream Job</p>
           </div>
         </div>
-        <div id="blackbox"><p><b>NEWS</b></p></div>
+        <div id="blackbox3"><p><b>NEWS</b></p></div>
         <div class="flex-container2">
           <div id="linkedin">
             <h5>LINKEDIN</h5>
@@ -178,7 +180,7 @@
 
       <div class="wrapper">
       <div class="info">
-	  <h1>GET IN TOUCH</h1>
+	  <h1 id="contactme">GET IN TOUCH</h1>
 
         <ul>
           <li><i class="fa fa-road"></i>Electronic City</li>
@@ -232,19 +234,20 @@
       </div>
 
       <script>
-    window.onscroll = function() {myFunction()};
+window.onscroll = function() {myFunction()};
 
-    var header = document.getElementById("container");
-    var sticky = header.offsetTop;
+var header = document.getElementById("container");
+var sticky = header.offsetTop;
 
-    function myFunction() {
-      if (window.pageYOffset >= sticky) {
-        header.classList.add("sticky");
-      } else {
-        header.classList.remove("sticky");
-      }
-    }
-    </script>
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+
 
    </body>
 </html>
